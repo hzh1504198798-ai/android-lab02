@@ -13,3 +13,11 @@
 .externalNativeBuild
 .cxx
 local.properties
+
+# Experiment 4 nested project and backend local files
+student-starter/.gradle/
+student-starter/**/build/
+student-starter/local.properties
+backend/__pycache__/
+backend/*.py[cod]
+.env
